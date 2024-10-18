@@ -10,7 +10,7 @@ const handleRequest = (request) => {
     message = number1*number2;
   } 
   else if (operation === "sum") {
-    message = number1+number2;
+    message = number1*number2;
   }
 
   return new Response(message);
